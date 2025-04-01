@@ -26,7 +26,8 @@ online_shopping_analysis/
 │   ├── data_utils.py                    # Data loading and preprocessing
 │   ├── model_evaluation.py              # Model training and evaluation
 │   ├── viz_utils.py                     # Visualization functions
-│   └── generate_plots.py                # Script to generate all visualizations
+│   ├── generate_plots.py                # Script to generate all visualizations
+│   └── sentiment_analysis.py            # Sentiment analysis functionality
 ├── plots/                               # Generated visualizations
 │   ├── *.png                           # Static visualizations
 │   └── *.html                          # Interactive Plotly visualizations
@@ -56,6 +57,12 @@ online_shopping_analysis/
    - Customer segmentation
    - Feature importance analysis
    - Anomaly detection
+
+4. **AI Features**
+   - Sentiment analysis of customer reviews using DistilBERT
+   - Batch processing of multiple reviews
+   - Confidence scoring for sentiment predictions
+   - Integration with existing data analysis pipeline
 
 ## Key Findings
 
@@ -106,11 +113,35 @@ pip install -r requirements.txt
 python src/generate_plots.py
 ```
 
-2. View the generated visualizations:
+2. Use sentiment analysis:
+```python
+from src.sentiment_analysis import SentimentAnalyzer
+
+# Initialize the analyzer
+analyzer = SentimentAnalyzer()
+
+# Analyze a single review
+result = analyzer.analyze_text("Great product, exactly what I was looking for!")
+print(f"Sentiment: {result['sentiment']}")
+print(f"Confidence: {result['confidence']:.2f}")
+
+# Analyze multiple reviews from a DataFrame
+import pandas as pd
+reviews_df = pd.DataFrame({
+    'review_text': [
+        "Great product, exactly what I was looking for!",
+        "Disappointed with the quality, would not recommend.",
+        "Fast shipping and good customer service."
+    ]
+})
+analyzed_df = analyzer.analyze_reviews(reviews_df, 'review_text')
+```
+
+3. View the generated visualizations:
    - Static plots: Check the `plots/` directory for PNG files
    - Interactive plots: Open HTML files in `plots/` directory in a web browser
 
-3. View the analysis report:
+4. View the analysis report:
    - Open `reports/analysis_report.html` in a web browser
    - The report includes:
      - Key findings and insights
@@ -163,13 +194,20 @@ python src/generate_plots.py
 
 ## Dependencies
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- plotly
-- scikit-learn
-- imbalanced-learn
+Core packages:
+- pandas>=1.3.0
+- numpy>=1.21.0
+- matplotlib>=3.4.0
+- seaborn>=0.11.0
+- scikit-learn>=0.24.0
+- plotly>=5.1.0
+
+AI/ML packages:
+- transformers>=4.30.0
+- torch>=2.0.0
+- xgboost>=1.4.0
+- lightgbm>=3.2.0
+- imbalanced-learn>=0.8.0
 
 ## License
 
