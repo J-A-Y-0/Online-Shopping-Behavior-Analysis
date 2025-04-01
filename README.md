@@ -2,6 +2,17 @@
 
 This project analyzes online shopping behavior patterns using machine learning and data visualization techniques. It focuses on understanding customer purchase intentions and identifying key factors that influence online shopping decisions.
 
+## Dataset
+The dataset used in this analysis is the "Online Shoppers Purchasing Intention" dataset from the UCI Machine Learning Repository. It contains 12,330 user sessions with the following features:
+
+- **Behavioral Metrics**: PageValues, BounceRates, ExitRates
+- **Technical Information**: OperatingSystems, Browser, TrafficType
+- **User Characteristics**: VisitorType, Region, Weekend
+- **Temporal Features**: Month, SpecialDay
+- **Target Variable**: Revenue (Boolean indicating purchase completion)
+
+Dataset Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset)
+
 ## Author
 - **Jay (Weike) Yu** ([@J-A-Y-0](https://github.com/J-A-Y-0))
 
