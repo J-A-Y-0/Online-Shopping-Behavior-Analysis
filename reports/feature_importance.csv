@@ -1,0 +1,11 @@
+Feature,Importance Score,Impact on Conversion,Description
+PageValues,27.1,High,Monetary value of pages viewed during session
+Segment,18.5,High,Customer segment classification
+ProductRelated_Duration,15.3,Medium,Time spent on product-related pages
+Administrative_Duration,12.2,Medium,Time spent on administrative pages
+BounceRates,8.7,Medium,Rate of single-page sessions
+ExitRates,6.4,Medium,Rate of page exits
+Informational_Duration,4.8,Low,Time spent on informational pages
+ProductRelated,3.2,Low,Number of product-related pages viewed
+Administrative,2.1,Low,Number of administrative pages viewed
+Informational,1.9,Low,Number of informational pages viewed

@@ -1,0 +1,6 @@
+Journey,Count,Conversion Rate,Avg Page Value
+Admin->Info->Product,1234,24.3,45.2
+Product->Info->Admin,2156,18.7,38.9
+Direct Product,5299,8.1,25.4
+Info->Product->Admin,1876,15.2,32.8
+Admin->Product,3421,12.5,28.6

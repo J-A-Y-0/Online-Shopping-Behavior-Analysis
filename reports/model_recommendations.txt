@@ -1,0 +1,6 @@
+Key factors influencing purchase decisions:
+- Focus on optimizing PageValues
+- Focus on optimizing ProductRelated_Duration
+- Focus on optimizing ExitRates
+- Focus on optimizing ProductRelated
+- Focus on optimizing Administrative_Duration

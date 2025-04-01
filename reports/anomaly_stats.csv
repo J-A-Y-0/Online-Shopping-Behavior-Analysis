@@ -1,0 +1,11 @@
+Category,Count,Percentage,Description,Severity
+Bot Traffic,324,3.2,Automated bot activity detected,High
+Unusual Purchase Patterns,152,1.5,Suspicious purchase behavior,High
+Technical Anomalies,283,2.8,Browser/device compatibility issues,Medium
+Session Duration Outliers,245,2.4,Extremely long or short sessions,Medium
+Page Value Anomalies,189,1.9,Unusual page value patterns,Medium
+Traffic Source Anomalies,167,1.7,Unusual traffic source patterns,Low
+Browser Anomalies,145,1.4,Unusual browser behavior,Low
+Device Anomalies,132,1.3,Unusual device patterns,Low
+Region Anomalies,98,1.0,Unusual geographic patterns,Low
+Time Pattern Anomalies,87,0.9,Unusual time-based patterns,Low
