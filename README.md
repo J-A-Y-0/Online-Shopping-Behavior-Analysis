@@ -64,7 +64,10 @@ online_shopping_analysis/
    - Confidence scoring for sentiment predictions
    - Integration with existing data analysis pipeline
 
-Analyzing the tone of customer reviews with DistilBERT allows us to quantify satisfaction and identify pain points beyond click‑stream metrics. Combining behavioral data with sentiment insights can inform marketing campaigns, highlight opportunities for product improvement, and enhance the overall user experience by addressing issues raised in feedback.
+## Business Value of Sentiment Analysis
+Analyzing the tone of customer reviews with DistilBERT allows us to quantify user satisfaction and identify pain points that are not visible through clickstream or behavioral data alone. While behavioral metrics reveal what users do, sentiment analysis helps explain why they behave that way. For example, a high bounce rate may be tied to negative product feedback that users express in their reviews. By integrating sentiment scores with session-level data, we can uncover emotional drivers behind user decisions, such as frustration with checkout flow, dissatisfaction with product quality, or praise for specific features.
+
+These insights have clear business implications: marketers can tailor campaigns to address negative perceptions, product teams can prioritize improvements based on emotional triggers, and UX designers can optimize user flows in response to sentiment trends. Overall, combining behavioral analytics with AI-powered sentiment analysis offers a more holistic understanding of the customer experience, leading to more informed decision-making across teams.
 
 ## Key Findings
 
