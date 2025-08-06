@@ -64,6 +64,8 @@ online_shopping_analysis/
    - Confidence scoring for sentiment predictions
    - Integration with existing data analysis pipeline
 
+Analyzing the tone of customer reviews with DistilBERT allows us to quantify satisfaction and identify pain points beyond click‑stream metrics. Combining behavioral data with sentiment insights can inform marketing campaigns, highlight opportunities for product improvement, and enhance the overall user experience by addressing issues raised in feedback.
+
 ## Key Findings
 
 1. **Customer Segments**
