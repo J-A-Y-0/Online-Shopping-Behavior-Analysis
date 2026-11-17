@@ -217,3 +217,7 @@ AI/ML packages:
 ## License
 
 MIT License
+
+---
+
+By [Jay Yu](https://jayyu.me/) · [Case study](https://jayyu.me/work/purchase-intent/)
